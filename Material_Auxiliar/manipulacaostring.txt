@@ -1,0 +1,22 @@
+.lower(): Converte todo o texto para letras minúsculas
+.upper(): Converte todo o texto para letras maiúsculas
+.isalpha(): Verifica se o texto contém apenas letras 
+(sem espaços ou números)
+.isdigit(): Verifica se o texto contém apenas números
+.isalnum(): Verifica se o texto tem apenas letras e números (sem símbolos)
+.islower() / isupper(): Verifica se o texto já está todo em minúsculas ou maiúsculas
+.startswith(): Verifica se o texto começa com um termo específico
+.endswith(): Verifica se o texto termina com um termo específico.
+
+Métodos de Limpeza e Ajuste
+
+strip(): Remove todos os espaços em branco inúteis no início e no final do texto
+.lstrip() / rstrip(): Remove os espaços em branco apenas da esquerda (início) ou da direita (fim)
+.title(): Deixa a primeira letra de cada palavra em maiúscula (ideal para nomes próprios, ex: "ana maria" vira "Ana Maria")
+.capitalize(): Deixa apenas a primeiríssima letra do texto em maiúscula e todo o resto em minúscula.
+
+Métodos de Substituição e Divisão
+
+replace("antigo", "novo"): Substitui um trecho do texto por outro (ex: pode ser usado para remover acentos ou trocar espaços por traços)
+.split(): Corta o texto em pedaços com base em um caractere (se usado sem argumentos, divide o nome completo em uma lista de nomes pelos espaços)
+.join(): Junta uma lista de palavras de volta em uma única string, usando um conector.
